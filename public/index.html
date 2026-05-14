@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiokmash — Which Singapore Dish More Shiok?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🍜 Shiokmash</h1>
+    <p class="tagline">Which Singapore dish more shiok? You decide lah!</p>
+    <nav>
+      <button id="btn-vote"        class="nav-btn active" onclick="showPage('vote')">Vote Lah!</button>
+      <button id="btn-leaderboard" class="nav-btn"        onclick="showPage('leaderboard')">Leaderboard</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── Voting Page ───────────────────────────────────────── -->
+    <section id="page-vote" class="page active">
+
+      <p id="battle-intro" class="battle-intro">Loading matchup lah…</p>
+
+      <div class="battle-arena">
+
+        <div class="dish-card" id="dish-one" onclick="castVote('one')">
+          <div class="dish-emoji" id="emoji-one">🍜</div>
+          <div class="dish-name"  id="name-one">Loading…</div>
+          <div class="dish-score" id="score-one">1000 pts</div>
+          <button class="vote-btn">Shiok! Vote</button>
+        </div>
+
+        <div class="vs-badge">VS</div>
+
+        <div class="dish-card" id="dish-two" onclick="castVote('two')">
+          <div class="dish-emoji" id="emoji-two">🍛</div>
+          <div class="dish-name"  id="name-two">Loading…</div>
+          <div class="dish-score" id="score-two">1000 pts</div>
+          <button class="vote-btn">Shiok! Vote</button>
+        </div>
+
+      </div>
+
+      <div id="vote-result" class="vote-result hidden">
+        <p id="result-text"></p>
+        <button onclick="loadMatchup()" class="next-btn">Next Battle Lah! →</button>
+      </div>
+
+      <div id="loading" class="loading hidden">Wah wait ah, loading…</div>
+
+    </section>
+
+    <!-- ── Leaderboard Page ──────────────────────────────────── -->
+    <section id="page-leaderboard" class="page hidden">
+
+      <p id="leaderboard-commentary" class="battle-intro">Loading lah…</p>
+
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Dish</th>
+            <th>Score</th>
+            <th>Wins 🏆</th>
+            <th>Losses</th>
+            <th>Battles</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Built with Node.js + <a href="https://lahlang.dev/" target="_blank">Lahlang</a>
+      — scoring engine written in Singlish lah
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

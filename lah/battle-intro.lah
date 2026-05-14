@@ -1,0 +1,5 @@
+eh listen lah
+  eh got dish_one = "Hainanese Chicken Rice";
+  eh got dish_two = "Laksa";
+  oi "Wah lau eh! " + dish_one + " vs " + dish_two + " - which one more shiok? You decide lah!";
+ok lah bye

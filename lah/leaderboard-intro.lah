@@ -1,0 +1,15 @@
+eh listen lah
+  eh got total_votes = 0;
+  eh got top_dish = "Hainanese Chicken Rice";
+  confirm or not (total_votes same same 0) {
+    oi "Wah, no votes yet! Quick quick go vote lah! Cannot be so paiseh one!";
+  } or maybe (total_votes less than 10) {
+    oi "Aiyah only " + to_words(total_votes) + " votes leh. Vote more lah, dun be shy!";
+  } or maybe (total_votes less than 50) {
+    oi "Getting shiok lah! " + to_words(total_votes) + " votes already. " + top_dish + " leading so far!";
+  } or maybe (total_votes less than 100) {
+    oi "Wah steady pom pi pi! " + to_words(total_votes) + " votes sia. " + top_dish + " confirm plus chop?";
+  } abuden {
+    oi "Wah so many votes sia! " + to_words(total_votes) + " Singaporeans confirm " + top_dish + " is top shiok lah!";
+  }
+ok lah bye

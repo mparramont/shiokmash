@@ -1,0 +1,17 @@
+[
+  { "id": "chicken-rice",    "name": "Hainanese Chicken Rice",      "emoji": "🍗" },
+  { "id": "char-kway-teow",  "name": "Char Kway Teow",              "emoji": "🍜" },
+  { "id": "laksa",           "name": "Laksa",                       "emoji": "🍲" },
+  { "id": "bak-kut-teh",     "name": "Bak Kut Teh",                 "emoji": "🥘" },
+  { "id": "hokkien-mee",     "name": "Hokkien Mee",                 "emoji": "🍝" },
+  { "id": "nasi-lemak",      "name": "Nasi Lemak",                  "emoji": "🍛" },
+  { "id": "chilli-crab",     "name": "Chilli Crab",                 "emoji": "🦀" },
+  { "id": "satay",           "name": "Satay",                       "emoji": "🍢" },
+  { "id": "kaya-toast",      "name": "Kaya Toast",                  "emoji": "🍞" },
+  { "id": "fish-head-curry", "name": "Fish Head Curry",             "emoji": "🐟" },
+  { "id": "orh-luak",        "name": "Orh Luak (Oyster Omelette)",  "emoji": "🦪" },
+  { "id": "roti-prata",      "name": "Roti Prata",                  "emoji": "🫓" },
+  { "id": "mee-goreng",      "name": "Mee Goreng",                  "emoji": "🍜" },
+  { "id": "wonton-mee",      "name": "Wonton Mee",                  "emoji": "🥟" },
+  { "id": "rojak",           "name": "Rojak",                       "emoji": "🥗" }
+]

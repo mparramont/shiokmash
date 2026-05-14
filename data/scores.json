@@ -1,0 +1,77 @@
+{
+  "chicken-rice": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "char-kway-teow": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "laksa": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "bak-kut-teh": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "hokkien-mee": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "nasi-lemak": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "chilli-crab": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "satay": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "kaya-toast": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "fish-head-curry": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "orh-luak": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "roti-prata": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "mee-goreng": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "wonton-mee": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  },
+  "rojak": {
+    "score": 1000,
+    "wins": 0,
+    "losses": 0
+  }
+}

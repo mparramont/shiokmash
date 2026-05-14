@@ -1,0 +1,14 @@
+{
+  "name": "shiokmash",
+  "version": "1.0.0",
+  "description": "Shiok or not? Battle of Singapore's best dishes lah!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "lahlang": "^0.3.1"
+  }
+}

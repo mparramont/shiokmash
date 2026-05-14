@@ -1,0 +1,11 @@
+eh listen lah
+  confirm got BONUS_POINTS = 15;
+  eh got winner_score = 1000;
+  eh got loser_score = 1000;
+  eh got shiok_score = winner_score + BONUS_POINTS;
+  eh got suay_score = loser_score - BONUS_POINTS;
+  confirm or not (suay_score less than 0) {
+    eh change suay_score = 0;
+  }
+  oi to_words(shiok_score) + "|" + to_words(suay_score);
+ok lah bye
